@@ -1,0 +1,22 @@
+# project configuration
+.exercicio_zero/project
+
+# patch files
+*.orig
+*.rej
+
+# generated files
+/**/__pycache__/
+/build/
+/**/*.egg-info/
+RESULT
+
+# test tools
+.coverage
+.tox
+
+# common names for virtual environments
+/.venv/
+/venv/
+/.tox/
+
