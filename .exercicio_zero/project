@@ -2,19 +2,19 @@
 # Username do Github
 USERNAME="exercicios-programacao"
 # Nome completo da disciplina
-DISCIPLINA="<disciplina>"
+# DISCIPLINA="<disciplina>"
 # "apelido da disciplina (sem espaços)
-NICKNAME=""
+# NICKNAME=""
 # Número do trabalho
-NUMERO="<num>"
+# NUMERO="<num>"
 # Nome da Instituição
-UNIVERSIDADE=""
+# UNIVERSIDADE=""
 # Título do trabalho (Default: $NICKNAME-$YEAR-t$WORKNUM)
-# HOMEWORK=""
+HOMEWORK="Tutorial introdutório sobre Git e Github"
 # Nome do repositório (Default: $NICKNAME-$YEAR-t$WORKNUM)
-# REPOSITORIO=""
+REPOSITORIO="github-pr-tutorial"
 # Nome do curso (default: Ciência da Computação)
 # CURSO=""
 # Mês e ano em que o exercício será aplicado (default: mês atual)
-# MES=""
-# ANO=""
+MES="04"
+ANO="2024"

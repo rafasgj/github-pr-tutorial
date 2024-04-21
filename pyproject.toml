@@ -1,8 +1,8 @@
 [project]
-name = "@REPO@"
-description = "Trabalho @WORKCODE@ da disciplina @DISC@, do curso de @CURSO@, @UNIVERSIDADE@."
+name = "github-pr-tutorial"
+description = "Tutorial introdutório sobre o uso de Git e Github."
 readme = "README.md"
-version = "@WORKNUM@.@MONTH@.@YEAR@"
+version = "1.0.0"
 requires-python = ">=3.11"
 license = { file="COPYING" }
 
@@ -19,11 +19,11 @@ dependencies = [
 tox = [ "tox" ]
 
 [project.urls]
-homepage = "https://github.com/@USERNAME@/@REPO@"
-repository = "https://github.com/@USERNAME@/@REPO@"
-issues = "https://github.com/rafasgj/@REPO@/issues"
-pull_requests = "https://github.com/@USERNAME/@REPO@/pulls"
-discussions = "https://github.com/@USERNAME@/@REPO@/discussions"
+homepage = "https://github.com/exercicios-programacao/github-pr-tutorial"
+repository = "https://github.com/exercicios-programacao/github-pr-tutorial"
+issues = "https://github.com/rafasgj/github-pr-tutorial/issues"
+pull_requests = "https://github.com/@USERNAME/github-pr-tutorial/pulls"
+discussions = "https://github.com/exercicios-programacao/github-pr-tutorial/discussions"
 
 [build-system]
 requires = ["setuptools"]

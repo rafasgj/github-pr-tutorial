@@ -1,12 +1,15 @@
-@HOMEWORK@
-====================
+Tutorial introdutório sobre Git e Github
+========================================
+
+Este repositório contém instruções para um tutorial de uso do Git e Github
+com foco nos comandos introdutórios para a criação de um _pull request_.
 
 
-Preparação para a execução do trabalho
---------------------------------------
+Preparação para a execução do exercício
+---------------------------------------
 
-Para iniciar este trabalho, faça um _fork_ do repositório 
-[https://github.com/@USER@/@REPO@](https://github.com/@USER@/@REPO@)
+Para iniciar este exercício, faça um _fork_ do repositório
+[https://github.com/exercicios-programacao/github-pr-tutorial](https://github.com/exercicios-programacao/github-pr-tutorial)
 para o seu usuário do Github.
 
 Siga as orientações para a preparação do ambiente de desenvolvimento 
@@ -14,13 +17,13 @@ contidas nesse documento.
 
 Todo o código implementado deve estar dentro do diretório `src`. Siga as 
 instruções contidas no arquivo [`INSTRUCOES.md`](INSTRUCOES.md), que contém
-os objetivos e etapas para a realização do trabalho.
+os objetivos e etapas para a realização do exercício.
 
 
 Instalação das Dependências
 ---------------------------
 
-Para realizar este trabalho você deverá utilizar a linguagem de programação 
+Para realizar este exercício você deverá utilizar a linguagem de programação
 Python, na versão 3.11 ou superior.
 
 Para isolar o ambiente de desenvolvimento, é sugerido o uso de ambientes 
@@ -64,7 +67,7 @@ pip install -e .[tox]
 Desenvolvimento
 ---------------
 
-Durante o desenvolvimento do trabalho, você pode executar os testes, 
+Durante o desenvolvimento do exercício, você pode executar os testes,
 localmente, utilizando os comandos `tox` ou `behave`. A diferença entre os 
 dois é que o `behave` executa apenas os testes funcionais e o `tox` executa 
 os testes de qualidade de código, como formatação e boas práticas.
@@ -74,25 +77,13 @@ utilizando-se o comando `behave --stop`, para que os testes funcionais
 parem na primeira falha.
 
 
-Entrega
--------
+Conclusão do Exercício
+----------------------
 
-Para entregar o trabalho, faça commit do código, envie para o seu _fork_ no 
-Github, e abra um _pull request_ contra o
-[repositório original](https://github.com/@USER@/@REPO@).
+O exercício é concludio quando é criado um _pull request_ contra o
+[repositório original](https://github.com/exercicios-programacao/github-pr-tutorial). Para isso, será
+necessário que a solução para o problema seja encontrada e que exista, ao
+menos, um novo _commit_ no código, e que o _fork_ criado seja atualizado.
 
-O título do _pull request_ deve conter o nome do aluno que o está criando. 
-Na mensagem deve constar o nome completo do autor do _pull request_, e de 
-todos os alunos que realizaram o trabalho, no caso de trabalhos em grupo. 
-Qualquer informação necessária para a entrega do trabalho deve estar 
-presente no corpo dessa mensagem.
+O _pull request_ deve conter um título, e, opcionalmente, um comentário.
 
-Você deve garantir que os testes (`checks`) executaram corretamente, pois é 
-a partir deles que será realizada a avaliação.
-
-
-Discussões Online
------------------
-
-Dúvidas e disccussões sobre o trabalho podem ser realizadas utilizando as
-[discussões do Github](https://github.com/@USER@/@REPO@/discussions).
